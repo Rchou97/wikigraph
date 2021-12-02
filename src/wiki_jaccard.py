@@ -56,7 +56,7 @@ def pipeline(df):
 
 
 # Data gathering from CSV file
-master_df = pd.read_csv(r'C:\Users\richa\OneDrive\Bureaublad\DAS_project\data\master_df.csv') # change path to open the csv
+master_df = pd.read_csv(r'data\master_df.csv') 
 master_df
 
 # Convert pandas_df to spark_df and change string to array
